@@ -1,0 +1,3 @@
+include special/special.py
+include special/special.c
+include special/cython_special.pyx

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "numpy>=1.16.3", "cython>=0.29.32"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scipydepr"
+version = "0.0.1"
+authors = [
+    {name="Rutger van Haasteren", email="rutger@vhaasteren.com"},
+]
+description = "Deprecated functions from Scipy (scipy.special), for those of us who need them"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vhaasteren/scipydepr"
+"Bug Tracker" = "https://github.com/vhaasteren/scipydepr/issues"
